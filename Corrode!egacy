@@ -1,4 +1,3 @@
-if game.Workspace:FindFirstChild("SeekMovingNewClone") then return end
 ---====== Load spawner ======---
 
 local spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Entity%20Spawner/V2/Source.lua"))()
@@ -8,7 +7,7 @@ local spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/Regul
 local entity = spawner.Create({
 	Entity = {
 		Name = "Corrode",
-		Asset = "https://raw.githubusercontent.com/J63633S/Awesome-ENTITIES-bec-i-have-an-pc/main/corrode.rbxm",
+		Asset = "https://raw.githubusercontent.com/J63633S/Awesome-ENTITIES-bec-i-have-an-pc/refs/heads/main/corrode.rbxm",
 		HeightOffset = 0
 	},
 	Lights = {
@@ -41,7 +40,7 @@ local entity = spawner.Create({
 	},
 	Damage = {
 		Enabled = true,
-		Range = 40,
+		Range = 50,
 		Amount = 125
 	},
 	Crucifixion = {
