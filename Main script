@@ -1,20 +1,3 @@
-local function getGitSoundId(GithubSoundPath: string, AssetName: string): Sound
-	local Url = GithubSoundPath
-
-	if not isfile(AssetName..".mp3") then 
-		writefile(AssetName..".mp3", game:HttpGet(Url)) 
-	end
-
-	local Sound = Instance.new("Sound")
-	Sound.SoundId = getcustomasset(AssetName..".mp3", true)
-	return Sound 
-end
-
-local CustomMusic = getGitSoundId("https://raw.githubusercontent.com/J63633S/Fog-script/refs/heads/main/ambient%20that%20doesn't%20work%20FOR%20GODS%20SAKE.mp3", "ambience")
-CustomMusic.Parent = game.SoundService
-CustomMusic.Looped = true
-CustomMusic:Play()
-
 game.SoundService.AmbientReverb = Enum.ReverbType.Cave
 
 warn("Loading")
@@ -81,7 +64,7 @@ lastroom.changed:connect(function()
 	if table.find(chaoticsp, lastroom.Value) then
 		task.spawn(function()
 			task.wait(r3:NextInteger(5,15,lastroom.Value))
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/J63633S/Laver-mode/refs/heads/main/Chaotic"))()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/jackpetersmithwarr-collab/Doors-Laver-mode-Legacy/main/ChaoticLegacy"))()
 		end)
 	end
 	if table.find(classiosp, lastroom.Value) then
