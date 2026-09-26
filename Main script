@@ -82,7 +82,7 @@ lastroom.changed:connect(function()
 	if table.find(moriartysp, lastroom.Value) then
 		task.spawn(function()
 			task.wait(r3:NextInteger(1,17,lastroom.Value))
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/J63633S/Laver-mode/refs/heads/main/Moriarty"))()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/jackpetersmithwarr-collab/Doors-Laver-mode-Legacy/main/MoriArtyLegacy"))()
 		end) 
 	end
 	if table.find(deathsp, lastroom.Value) then
