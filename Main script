@@ -56,7 +56,7 @@ require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("
 task.wait(3)
 require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Made by Silly cat cat (now known as Greendepth/rammerv1) and localplayer legacy mode by greendepth/rammerv1",true)
 task.wait(2)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Join the discord https://discord.gg/BZR6Na4bBT",true)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Have fun playing this, i dont plan for it be big",true)
 task.wait(1)
 require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption(captions[r3:NextInteger(0,#captions,seed)],true)
 
