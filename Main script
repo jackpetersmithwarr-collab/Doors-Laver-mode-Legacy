@@ -88,7 +88,7 @@ lastroom.changed:connect(function()
 	if table.find(deathsp, lastroom.Value) then
 		task.spawn(function()
 			task.wait(r3:NextInteger(2,20,lastroom.Value))
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/J63633S/Laver-mode/refs/heads/main/Death"))()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/jackpetersmithwarr-collab/Doors-Laver-mode-Legacy/main/Deathlegacy"))()
 		end)
 	end
 end)
