@@ -93,7 +93,7 @@ lastroom.changed:connect(function()
 	if table.find(corrodesp, lastroom.Value) then
 		task.spawn(function()
 			task.wait(r3:NextInteger(6,6,lastroom.Value))
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/J63633S/Laver-mode/refs/heads/main/Corrode"))()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/jackpetersmithwarr-collab/Doors-Laver-mode-Legacy/main/Corrode!egacy"))()
 		end)
 	end
 	if table.find(moriartysp, lastroom.Value) then
