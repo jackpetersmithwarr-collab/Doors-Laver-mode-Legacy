@@ -70,7 +70,7 @@ lastroom.changed:connect(function()
 	if table.find(classiosp, lastroom.Value) then
 		task.spawn(function()
 			task.wait(r3:NextInteger(2,12,lastroom.Value))
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/J63633S/Laver-mode/refs/heads/main/Classio-Reboundier"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/jackpetersmithwarr-collab/Doors-Laver-mode-Legacy/main/ClassioReboundierLegacy"))()
 		end)
 	end
 	if table.find(corrodesp, lastroom.Value) then
